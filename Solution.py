@@ -17,15 +17,15 @@ def sumsolve(capacities, total_units, sum, start, path):
         elif total == total_units:
             result.append(list(path + (capacities[i],)))    
     return result
-
-def IP(a,b):
-  return a*b
+#Function to generate total number of units
+def IP(capacity,hours):
+  return capacity*hours
 
 #Function to generate the output
-def main(a,b):
+def main(capacity,hours):
   #Calculations for 1st Region ie. New York
   #Creation of object based on New York region specifications.
-  ob1=Sol().com_sum([10,20,40,80,160,320],IP(a,b))
+  ob1=Sol().com_sum([10,20,40,80,160,320],IP(capacity,hours))
   #lists to store counts of different containers Ex: cnt_10 will store for container of 10 units(Large) and so on.
   cnt_10=[]
   cnt_20=[]
