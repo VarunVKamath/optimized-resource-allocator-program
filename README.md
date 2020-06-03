@@ -1,9 +1,9 @@
 # optimized-resource-allocator-program
 
-## Files Included:</br>
-1. Solution.py [The Intended Solution to the problem statement] </br>
-2. test_Solution.py [testcases to be run on Solution.py] </br>
-3. Solution_user_ip.py [To Run the program with inputs from the user]</br>
+## Files Included:
+    1. Solution.py (The Intended Solution to the problem statement).
+    2. test_Solution.py (testcases to be run on Solution.py).
+    3. Solution_user_ip.py (To Run the program with inputs from the user).
 
 ## Steps:
     1. Taking the input.
